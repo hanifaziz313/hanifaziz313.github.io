@@ -1,0 +1,492 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*style css*/
+
+body {
+    font-size: 16px;
+    line-height: 25px;
+    background-image: url(../sao.jpg);
+    box-sizing: border-box;
+}
+
+.containerhead {
+    width: 900px;
+    height: 90px;
+    background-image: url(gambarbkg/th.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: auto;
+    border-bottom: 5px solid rgb(8, 8, 145);
+    box-sizing: content-box;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right: 0px;
+}
+
+.header .judul,
+.logojudul {
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.navigasi {
+    text-align: center;
+    padding-left: 30px;
+
+}
+
+.navigasi ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navigasi ul li {
+    display: inline-block;
+    padding: 5px 15px;
+
+
+}
+
+.header .judul {
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(108, 98, 11);
+
+}
+
+.header .logojudul {
+    height: 40px;
+}
+
+.navigasi a:hover {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    font-family: fantasy;
+}
+
+.containerbody {
+    width: 1000px;
+    background-color: azure;
+    margin: 100px auto 20px;
+    box-sizing: border-box;
+    padding: 5px ;
+}
+
+.subjudul h2 {
+    
+     font-weight: bold;
+    font-size : 20px;
+    padding : 10px 20px;
+    text-transform: capitalize;
+
+
+}
+
+div.trending img.gambar {
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    padding-left: 20px;
+
+}
+
+div.trending {
+    padding: 10px 50px;
+}
+
+div.trending a {
+    display: inline-block;
+    color: rgb(5, 173, 245);
+    font-size: 12px;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    padding-left: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.trending a:hover {
+    text-transform: uppercase;
+}
+
+.main {
+    padding-top: 50px;
+}
+
+.news h1 {
+    font-size: 25px;
+
+    background-color: rgb(215, 41, 41);
+    font-weight: bold;
+    padding-left: 25px;
+    text-decoration: underline;
+
+}
+
+.subjudull h2 {
+    font-family: fantasy;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 35px;
+    word-spacing: 3px;
+    letter-spacing: 1;
+    font-size: 25px;
+}
+
+.subjudull img {
+    padding-top: 30px;
+    width: 100%;
+
+}
+
+.paragrap {
+    padding: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.paragrap .p0,
+.p1,
+.p2,
+.p3 {
+    padding-bottom: 20px;
+}
+
+.paragrap img {
+    width: 50%;
+    padding: 20px 150px;
+}
+
+.containerend {
+    width: 100%;
+    background-color: rgb(6, 5, 5);
+
+}
+
+.logoend img {
+    width: 200px;
+    height: 200px;
+    padding-top: 25px;
+    padding-left: 20px;
+
+}
+.contac {
+    position: relative;
+    bottom: 40px;
+}
+
+.contac h1 {
+    color: rgb(191, 217, 239);
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 40px;
+    text-decoration: underline;
+    padding-left: 280px;
+    align-self: flex-start;
+}
+
+.contac img {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    padding-left: 20px;
+  
+}
+
+div .logoo {
+    padding-top: 40px;
+    padding-left: 220px;
+}
+
+.containerend .logoend,
+.contac {
+    display: inline-block;
+
+
+}
+
+.end {
+    width: 100%;
+    background-color: darkgrey;
+}
+
+.copyright p {
+    text-align: center;
+    font-size: 16px;
+}
+
+div .paragrap {
+    width: 600px;
+}
+
+/* ini adalah clear fix  */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom ;}
+
+/* side bar */
+div.sidebar {
+    width: 340px;
+    border: 3px solid lightskyblue;
+    float: right;
+    padding :10px 5px;
+    box-sizing: border-box;
+}
+.sidejudul h2{
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: 15px;
+    padding-left: 15px;
+}
+
+/* content 1 */
+.cont1 {
+    border-bottom: 2px solid black;
+    padding: 5px 2px;
+
+}
+.cont1 img {
+    width: 150px;
+    height: 75px;
+    float: left;
+    padding :10px 10px 5px 5px;
+}
+.cont1 p {
+font: 13px/15px arial;
+letter-spacing: 0,5px;
+word-spacing: 2px;
+
+ }
+ 
+ .cont1 h3 {
+    font-family: fantasy;
+    font-size: 17px;
+    font-weight: 10px;
+ }
+ .cont1 a {
+    color: rgb(65, 175, 244);
+ }
+ /* content 2 */
+
+ .cont2 {
+    border-bottom: 2px solid black;
+    padding: 5px 2px;
+
+}
+.cont2 img {
+    width: 150px;
+    height: 75px;
+    float: left;
+    padding :10px 10px 5px 5px;
+}
+.cont2 p {
+font: 13px/15px arial;
+letter-spacing: 0,5px;
+word-spacing: 2px;}
+
+.cont2 h3 {
+    font-family: fantasy;
+    font-size: 17px;
+    font-weight: 10px;
+ }
+ .cont2 a {
+    color: rgb(65, 175, 244);
+ }
+
+ /* content 3 */
+
+ .cont3 {
+    border-bottom: 2px solid black;
+    padding: 5px 2px;
+
+}
+.cont3 img {
+    width: 150px;
+    height: 75px;
+    float: left;
+    padding :10px 10px 5px 5px;
+}
+.cont3 p {
+font: 13px/15px arial;
+letter-spacing: 0,5px;
+word-spacing: 2px;}
+
+.cont3 h3 {
+    font-family: fantasy;
+    font-size: 17px;
+    font-weight: 10px;
+ }
+ .cont3 a {
+    color: rgb(65, 175, 244);
+ }
+
+ /* content 4 */
+
+ .cont4 {
+    border-bottom: 2px solid black;
+    padding: 5px 2px;
+
+}
+.cont4 img {
+    width: 150px;
+    height: 75px;
+    float: left;
+    padding :10px 10px 5px 5px;
+}
+.cont4 p {
+font: 13px/15px arial;
+letter-spacing: 0,5px;
+word-spacing: 2px;}
+
+.cont4 h3 {
+    font-family: fantasy;
+    font-size: 17px;
+    font-weight: 10px;
+ }
+ .cont4 a {
+    color: rgb(65, 175, 244);
+ }
+
+
+

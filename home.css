@@ -1,0 +1,34 @@
+
+
+body {
+    background-image:url(../sao.jpg);
+ margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    h1 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        color: darkblue;
+        letter-spacing: 2px;
+    }
+    thead {
+        color: rgb(236, 38, 38);
+    }
+    tbody {
+        text-transform: capitalize;
+    }
+    table {
+        background-image: url(gambarbkg/double-bubble-outline.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin:auto auto;
+        }
+ 
+.otaku:hover {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(25, 153, 59);
+}
